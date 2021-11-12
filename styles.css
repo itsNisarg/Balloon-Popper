@@ -1,0 +1,62 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: #dadada;
+  margin: 10%;
+}
+
+.wrapper {
+  max-width: 75%;
+}
+
+.blue {
+  color: blue;
+}
+
+h1 {
+  font-size: xx-large;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin: auto;
+  text-transform: uppercase;
+  color: #000380;
+  padding-bottom: 30px;
+}
+
+#balloon-gallery div {
+  background: #ff3300;
+  height: 200px;
+  width: 150px;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+#balloon-gallery div:nth-child(3n) {
+  background-color: #ffce00;
+  color: #ffce00;
+}
+
+#balloon-gallery div:nth-child(3n-1) {
+  background-color: blueviolet;
+  color: blueviolet;
+}
+
+#balloon-gallery div:nth-child(3n-2) {
+  background-color: orangered;
+  color: orangered;
+}
+
+#balloon-gallery div:nth-child(5n-3) {
+  background-color: green;
+  color: green;
+}
+
+#no-balloon {
+  display: none;
+  color: #ff3300;
+  font-size: 100px;
+  width: 100%;
+}
